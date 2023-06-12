@@ -1,3 +1,8 @@
+/*
+ * This thread runs in the background for the entirety of the chess game
+ * When the positions of pieces change, it ensures they are correctly
+ * colored and shaded
+ */
 import java.awt.Color;
 
 import javax.swing.JButton;
