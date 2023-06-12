@@ -1,3 +1,8 @@
+/*
+ * Thread functions as a pseudo chess frame, it holds the chess panel
+ * The distinction is that it allows the chess game to run multiple threads 
+ * concurrently without being an obstacle for other functions
+ */
 import javax.swing.UIManager;
 
 public class ChessThread extends Thread{
