@@ -25,6 +25,7 @@ public class GameObject {
 	}
 /**
  * 	method for setting the value for the x coordinate of a game object	
+ *  @param int x
  */
 	public void setX(int x) {
 		xVal = x;
@@ -38,37 +39,56 @@ public class GameObject {
 	}
 /**
  * 	method for setting the value for the y coordinate of a game object	
+ *  @param int y
  */
 	public void setY(int y) {
 		yVal = y;
 	}
-
+/**
+ * 	method for returning the value for the height of a game object	
+ * 	@return height
+ */
 	public int getH() {
 		return height;
 	}
-
+/**
+ * 	method for setting the value for the height of a game object
+ *  @param int h	
+ */
 	public void setH(int h) {
 		height = h;
 	}
-
+/**
+ * 	method for returning the value for the width of a game object	
+ * 	@return width
+ */
 	public int getW() {
 		return width;
 	}
-
+/**
+ * 	method for setting the value for the width of a game object	
+ *  @param int w
+ */
 	public void setW(int w) {
 		width = w;
 	}
-	
+/**
+ * 	method for setting the boolean value for whether the game object is sticky
+ *  @param boolean s
+ */	
 	public void setSticky(boolean s) {
 		sticky = s;
 	}
-	
+/**
+ * 	method for returning the boolean value for whether the game object is sticky	
+ * 	@return sticky
+ */	
 	public boolean getSticky() {
 		return sticky;
 	}
-	
-	
-	
+/**
+ * void method that moves a coin to a far off location, in essence, deleting it
+ */
 	public void deleteCoin() {
 		xVal = 10000;
 		yVal = 10000;
