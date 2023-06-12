@@ -1,4 +1,7 @@
-
+/*
+ * Thread class that runs in the background and monitors whether the rook
+ * or king has moved, disabling the ability to castle in each of the four ways
+ */
 public class CastleThread extends Thread {
 
 	private int[][] tileVals;
