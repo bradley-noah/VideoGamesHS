@@ -1,3 +1,8 @@
+/*
+ * Class for holding a general GameObject, this can be a wall, pipe, ground,
+ * and more. It contains a hitbox as well as coordinates and other characteristics
+ * You can set game object's size, location, and stickiness with the methods below
+ */
 import java.awt.Rectangle;
 
 public class GameObject {
