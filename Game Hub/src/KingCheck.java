@@ -1,3 +1,9 @@
+/*
+ * This thread runs in the background for the entire chess game
+ * It scans the entire board and signals the GamePanel if 
+ * either king is not found in one of the 64 tiles on the board,
+ * ending the game
+ */
 import java.util.concurrent.TimeUnit;
 
 public class KingCheck extends Thread{
