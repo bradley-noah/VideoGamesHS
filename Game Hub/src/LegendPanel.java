@@ -1,3 +1,7 @@
+/*
+ * Class that holds a JPanel that displays the text for the end of the chess game
+ * Displays "GAME OVER" as well as the winner of the match
+ */
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
