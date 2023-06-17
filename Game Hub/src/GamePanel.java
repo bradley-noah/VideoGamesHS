@@ -1,3 +1,8 @@
+/*
+ * The purpose of this class is to create a GamePanel, to add to a JFrame
+ * It contains a button for each available game, and pressing each will
+ * pull up their respective thread or frame
+ */
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
