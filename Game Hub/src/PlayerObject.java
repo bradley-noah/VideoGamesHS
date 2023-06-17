@@ -1,3 +1,8 @@
+/*
+ * Class for holding a PlayerObject.
+ * It contains a hitbox as well as coordinates and other characteristics inherited from GameObject
+ * It helps for player collision with all other GameObjects
+ */
 import java.awt.Rectangle;
 import java.util.ArrayList;
 
