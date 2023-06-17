@@ -1,3 +1,6 @@
+/*
+ * Class for holding the legend panel using/extending JFrame
+ */
 import javax.swing.JFrame;
 
 public class LegendFrame extends JFrame{
