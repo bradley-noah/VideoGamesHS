@@ -1,3 +1,9 @@
+/*
+ * The purpose of this class is to create a JPanel, to add to a JFrame
+ * It contains a plethora of GameObjects and two PlayerObjects, 
+ * and the implementation of these along with sound and layout forms
+ * the structure of the Mario Game
+ */
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
