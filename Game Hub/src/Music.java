@@ -1,3 +1,7 @@
+/*
+ * The purpose of this class is to play a variety of sound bytes relevant 
+ * to the MarioGame 
+ */
 import java.io.*;
 	import java.net.URL;
 	import javax.sound.sampled.*;
