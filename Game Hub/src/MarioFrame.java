@@ -1,3 +1,7 @@
+/*
+ * This is the class that configures the JFrame that holds the JPanel for 
+ * the Mario-esque game. It sets the frame size and location on screen.
+ */
 import javax.swing.JFrame;
 import javax.swing.UIManager;
 
