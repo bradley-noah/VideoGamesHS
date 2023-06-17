@@ -1,5 +1,7 @@
 /*
- * Class for holding the legend panel using/extending JFrame
+ * This is the class that configures the JFrame that holds the JPanel for 
+ * the Legend, which displays the winner. 
+ * It sets the frame size and location on screen.
  */
 import javax.swing.JFrame;
 
