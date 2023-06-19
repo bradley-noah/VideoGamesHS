@@ -1,3 +1,7 @@
+/*
+ * This is the class that configures the JFrame that holds the JPanel for Pong
+ * It sets the frame size and location on screen. Update
+ */
 import javax.swing.JFrame;
 import javax.swing.UIManager;
 
