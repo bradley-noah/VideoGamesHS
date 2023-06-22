@@ -1,3 +1,8 @@
+/*
+ * The purpose of this class is to create a PongPanel, to add to a JFrame
+ * It contains the inner workings of pong, including some rudimentary physics
+ * angles of contact change velocity and direction of the returning volley
+ */
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
