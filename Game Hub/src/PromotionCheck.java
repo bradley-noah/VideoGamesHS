@@ -1,3 +1,9 @@
+/*
+ * This thread runs in the background for the entire chess game
+ * It scans the entire board and signals the GamePanel if 
+ * a piece makes it across the board completely in which case
+ * a promotion frame is called
+ */
 import java.util.concurrent.TimeUnit;
 
 import javax.swing.JFrame;
