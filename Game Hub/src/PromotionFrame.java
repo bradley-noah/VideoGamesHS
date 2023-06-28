@@ -1,3 +1,7 @@
+/*
+ * This is the class that configures the JFrame that holds the JPanel for 
+ * promoting a piece in chess. It sets the frame size and location on screen.
+ */
 import javax.swing.JFrame;
 
 public class PromotionFrame extends JFrame {
