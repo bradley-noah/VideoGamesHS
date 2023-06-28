@@ -1,3 +1,8 @@
+/*
+ * The purpose of this class is to create a JPanel, to add to a JFrame
+ * It contains a button for each available promotion, and pressing each will
+ * promote the current piece to that status
+ */
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
