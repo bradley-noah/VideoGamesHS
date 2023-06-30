@@ -1,3 +1,7 @@
+/*
+ * This is the class that configures the JFrame that holds the JPanel for 
+ * the snake game. It sets the frame size and location on screen.
+ */
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.GridLayout;
