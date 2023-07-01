@@ -1,3 +1,8 @@
+/*
+ * The purpose of this class is to create a JPanel, to add to a JFrame
+ * It contains the underlying logic behind the entire game
+ * the snake, the apples, the game rules, and ending cases
+ */
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
